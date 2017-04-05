@@ -1,0 +1,64 @@
+@charset "utf-8";
+body{
+  font:12px "microsoft yahei","arial";
+  color:#000;
+  background:#dedede;
+  margin:0;
+  padding:0;
+}
+
+ul li{
+	list-style:none;
+}
+
+.rt{
+	float:right;
+}
+.lt{
+	float:left;
+}
+
+nav,div,footer{
+	border:1px solid #333;
+	box-shadow: 1px 1px 2px #9f9f9f;
+	margin:10px auto;
+	padding:15px 10px;
+	background: #fff;
+	width:1239px;
+}
+p.first{
+	text-indent: 2em;
+}
+/*********************导航部分**************************/
+
+nav{
+	background: #333;
+	height:60px;	
+}
+#nav li{
+	height:60px;
+	line-height:60px;
+}
+#nav li a{
+	display:inline-block;
+	width:80px;
+	test-align:center;
+	color:#fff;
+	text-decoration: none;
+	font-weight:500;
+}
+
+div table{
+	width:1240px;
+	margin:0px auto;
+	border-collapse: collapse;
+
+}
+
+div form table{
+	margin-left:250px;
+	width:800px;
+}
+div table tr.form_left{
+	text-align:left;
+}

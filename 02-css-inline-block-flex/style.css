@@ -1,0 +1,19 @@
+
+.ly{
+	display: flex;
+	}
+
+.ly--center{
+    justify-content:center;
+}
+
+.ly--middle{
+	align-items:center;
+}
+.ly--justify{
+	justify-content: space-between;
+}
+
+ .ly__item--fill{
+ 	flex-grow: 1;
+ }
